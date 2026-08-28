@@ -62,7 +62,7 @@ from sklearn.metrics import (
 )
 
 # Load the dataset
-data = pd.read_csv("heart.csv")
+data = pd.read_csv("https://raw.githubusercontent.com/bsuryaprakash06/EX-6-NN/refs/heads/main/heart.csv")
 
 # Separate features and target
 X = data.iloc[:, :-1].values
